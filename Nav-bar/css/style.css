@@ -1,0 +1,75 @@
+/* Reset all the page */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utility classes */
+
+.container {
+    margin: auto;
+    max-width:1100px;
+    overflow: auto; /*to always ,ade itemes ishowes in nav bar */
+
+}
+
+/* Main Element */
+
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px o;
+}
+
+/* navbar */
+
+#navbar {
+    color: white;
+    background-color: rgb(27, 27, 27);
+    overflow: auto;
+}
+
+#navbar a {
+    color: white;
+}
+
+#navbar h1 {
+    float: left;
+    padding: 15px 20px 20px;
+}
+
+#navbar ul {
+    float: right;
+    ;
+    list-style: none;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover, #navbar ul li a.current {
+    background-color: rgb(20, 18, 18);
+    color: rgb(255, 145, 0);
+}
