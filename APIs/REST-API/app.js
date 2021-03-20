@@ -16,6 +16,7 @@ app.use(
 );
 app.use(express.static("public"));
 
+
 mongoose.connect("mongodb://localhost:27017/wikiHow", {
   useNewUrlParser: true,
 });
